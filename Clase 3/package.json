@@ -1,0 +1,12 @@
+{
+  "name": "clase-3",
+  "version": "1.0.0",
+  "description": "Clase 3 del curso de backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api-rest-nodejs/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonel Vazquez",
+  "license": "MIT"
+}
