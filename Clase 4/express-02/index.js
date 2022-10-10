@@ -13,7 +13,7 @@ const port = 3000;
 // Necesitamos llamar a esta funcion 
 // para poder acceder a process.env
 dotenv.config();
-app.use('/api', routes);
+//app.use('/api', routes);
 app.use(testMiddleware);
 
 app.use('/test', testController.sayHelloWorld);

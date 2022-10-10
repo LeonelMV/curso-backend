@@ -6,6 +6,20 @@ const helloNode = () => {
     console.log("Hola mundo desde Node!");
 }
 
+const testContext = () => {
+    const miVariable = 100;
+    console.log(miVariable);
+    
+    if(2 > 1){
+        const miVariable = 150;
+        console.log(miVariable);
+    }
+
+    console.log(miVariable);
+}
+
+testContext();
+
 const templateString = () => {
     const name = 'Leo';
     const hello1 = 'Hola ';
@@ -90,7 +104,7 @@ const promises = () => {
 //helloWorldFunc();
 //helloNode();
 //templateString();
-objects();
+//objects();
 //invokeCallback(myCallback);
 //iterators();
 //promises();
