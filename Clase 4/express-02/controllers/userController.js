@@ -7,10 +7,19 @@ const getUsers = (req, res) => {
 }
 
 const createUser = (req, res) => {
+    const { username, name, lastname } = req.body;
+    console.log(username);
+    console.log(name);
+    console.log(lastname);
+
     res.status(200).send({ message: 'El usuario fue creado exitosamente!', user: { username: "Leo1", password: "1234" } });
 }
 
 const updateUser = (req, res) => {
+    const { username, name, lastname } = req.body;
+    console.log(username);
+    console.log(name);
+    console.log(lastname);
     res.status(200).send({ message: 'El usuario fue actualizado exitosamente!', user: { username: "Leo2", password: "1234" } });
 
 }
